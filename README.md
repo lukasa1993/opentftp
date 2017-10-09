@@ -2,8 +2,12 @@
 
 ## build 
 
-docker build -t opentftpv1 .
+```docker build -t opentftpv1 .```
 
 ## start
 
-docker run -d -it -p 6969:6969/udp -v $(pwd):/opt/app -w /opt/app --name opentftp opentftpv1
+```docker run -d -it -p 6969:6969/udp -v $(pwd):/opt/app -w /opt/app --name opentftp opentftpv1```
+
+## stop
+
+```docker rm -f opentftp```
