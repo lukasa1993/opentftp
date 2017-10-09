@@ -11,3 +11,7 @@
 ## stop
 
 ```docker rm -f opentftp```
+
+## logs
+
+```docker logs -tf opentftp```
